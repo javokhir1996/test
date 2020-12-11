@@ -27,6 +27,7 @@ $res = mysqli_query($connect,$sql);
         <th>LOGIN</th>
         <th>PAROL</th>
         <th>FIO</th>
+        <th>Email</th>
      </tr>
      <tr>
          <?php while($a = mysqli_fetch_assoc($res)): ?>
